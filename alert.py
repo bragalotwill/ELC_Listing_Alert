@@ -13,7 +13,7 @@ load_dotenv()
 URL = 'https://www.eastlakecommons.org/pgAdHousing.aspx'
 SUBHEADINGS = ['Houses for Sale', 'Houses for Rent', 'Apartments for Rent', 'Roomates Wanted'] #roomates [sic]
 INTERESTED_SUBHEADINGS = ['Houses for Rent', 'Apartments for Rent']
-INPUT_FILE = 'elc.txt'
+INPUT_FILE = '/home/bragalotwill/Documents/elc_listing_alert/elc.txt'
 SENDER_EMAIL = os.getenv('SENDER_EMAIL')
 PASSWORD = os.getenv('PASSWORD')
 RECEIVER_EMAIL = os.getenv('RECEIVER_EMAIL')
